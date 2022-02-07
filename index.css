@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.list
+{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 10%;
+  width: 50vw;
+  height: 100vh;
+}
+
+.list div
+{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  height: 30%;
+  border-bottom: 0.4vh solid black;
+}
+
+.list button
+{
+  background: #101010;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 24px;
+  width: 10vw;
+  height: 5vh;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+input
+{
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 10px;
+  height: 5vh;
+  width: 25vw;
+  font-size: 2.5vh;
+}
+
+.products
+{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50%;
+  height: 55vh;
+}
+
+.products button
+{
+  background: #101010;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 24px;
+  width: 45%;
+  height: 5vh;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 2%;
+  margin-top: 0;
+}
+
+.product
+{
+  width: 100%;
+  height: 5vh;
+  margin: 0;
+  margin-top: 2vh;
+}
+
+.product button
+{
+  background-color: rgb(255, 31, 31);
+  width: 10vw;
+}
+
+.product h3
+{
+  all: initial;
+  all: unset;
+  font-size: 3vh;
+}
+
+.product button
+{
+  position: absolute;
+  right: 0;
+}
